@@ -1,6 +1,5 @@
 package com.appleobject.checkupdeck
 
-import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.text.Html
@@ -46,8 +45,7 @@ class OnBoardingActivity : AppCompatActivity() {
 
                 override fun onPageSelected(position: Int) {
                     addDots(position)
-                    val bottomAnimation: Animation =
-                        AnimationUtils.loadAnimation(context, R.anim.bottom_anim)
+
 
                     currentPosition = position
                     when (position) {
@@ -55,6 +53,8 @@ class OnBoardingActivity : AppCompatActivity() {
                         1 -> btn_get_started.visibility = View.INVISIBLE
                         2 -> btn_get_started.visibility = View.INVISIBLE
                         else -> {
+                            val bottomAnimation: Animation =
+                                AnimationUtils.loadAnimation(context, R.anim.bottom_anim)
                             btn_get_started.animation = bottomAnimation
                             btn_get_started.visibility = View.VISIBLE
                             btn_next.visibility = View.GONE
