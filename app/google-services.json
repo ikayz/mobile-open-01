@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "384760408427",
+    "firebase_url": "https://checkupdeck.firebaseio.com",
+    "project_id": "checkupdeck",
+    "storage_bucket": "checkupdeck.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384760408427:android:693f64dfab6f41bf8fc42e",
+        "android_client_info": {
+          "package_name": "com.appleobject.checkupdeck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384760408427-7sq5b10r39om06o92irkr62egkdjb8cb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSTzUR96_hQu29cUeRtTjp6MY1i3FNZgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384760408427-7sq5b10r39om06o92irkr62egkdjb8cb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
